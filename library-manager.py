@@ -76,7 +76,7 @@ def display_statistics(library):
 
 
 def main():
-    library = load_library
+    library = load_library()
     while True:  
         print("✨Welcome to the Personal Library Manager📚✨")  
         print("Menu")
